@@ -56,25 +56,6 @@
             margin-bottom: 15px;
         }
 
-        .video-wrapper {
-            position: relative;
-            width: 100%;
-            height: 0;
-            padding-bottom: 56.25%; /* 16:9 aspect ratio */
-            margin-bottom: 15px;
-            border-radius: 12px;
-            overflow: hidden;
-        }
-
-        .video-wrapper iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            border: none;
-        }
-
         .script-card p {
             font-size: 14px;
             color: rgba(255, 255, 255, 0.8);
@@ -95,6 +76,8 @@
             font-size: 13px;
             cursor: pointer;
             margin-top: 8px;
+            margin-right: 8px;
+            display: inline-block;
             transition: all 0.3s ease;
         }
 
@@ -219,7 +202,7 @@
                 </div>
             </div>
 
-            <!-- Services Section - Now with Script Cards Grid -->
+            <!-- Services Section - Script Cards (No Videos) -->
             <div class="content-section" id="services">
                 <div class="section-header-small">
                     <div class="small-logo">
@@ -242,17 +225,14 @@
                 <button class="back-btn" onclick="backToMenu()">← Back to Menu</button>
 
                 <div class="section-header">
-                    <h2 class="section-title">Free Scripts & Tutorials</h2>
-                    <p class="section-subtitle">Useful Roblox scripting resources with video tutorials</p>
+                    <h2 class="section-title">Free Scripts & Resources</h2>
+                    <p class="section-subtitle">Useful Roblox scripts, models, and icons</p>
                 </div>
 
                 <section class="scripts-grid">
                     <!-- Card 1 -->
                     <div class="script-card">
                         <h3>How to make Combat System V1</h3>
-                        <div class="video-wrapper">
-                            <iframe src="https://www.youtube.com/embed/Wt95LKb17bM" allowfullscreen></iframe>
-                        </div>
                         <p>Model Link: <a href="https://create.roblox.com/store/asset/121797332345085/Combat" target="_blank">Click here to get the model</a></p>
                         <pre><code>https://pastebin.com/raw/bXtNR0Rs</code></pre>
                         <button class="copy-btn">Copy Script Link</button>
@@ -261,9 +241,6 @@
                     <!-- Card 2 -->
                     <div class="script-card">
                         <h3>How to add Robux icon in Text Box</h3>
-                        <div class="video-wrapper">
-                            <iframe src="https://www.youtube.com/embed/_R1N7Ko3yeg" allowfullscreen></iframe>
-                        </div>
                         <p>Here is the Robux icon – copy and paste it in your TextButton or TextLabel!</p>
                         <pre><code></code></pre>
                         <button class="copy-btn">Copy Robux Icon</button>
@@ -272,9 +249,6 @@
                     <!-- Card 3 -->
                     <div class="script-card">
                         <h3>How to make Combat System V2</h3>
-                        <div class="video-wrapper">
-                            <iframe src="https://www.youtube.com/embed/AZ6S-9iw6fE" allowfullscreen></iframe>
-                        </div>
                         <p>Model Link: <a href="https://create.roblox.com/store/asset/121797332345085/Combat" target="_blank">Click here to get the model</a></p>
                         <pre><code>https://pastefy.app/2GC1CnoF/raw</code></pre>
                         <button class="copy-btn">Copy Script Link</button>
@@ -283,21 +257,14 @@
                     <!-- Card 4 -->
                     <div class="script-card">
                         <h3>How to make Dash System</h3>
-                        <div class="video-wrapper">
-                            <iframe src="https://www.youtube.com/embed/rUUcRhd3fjY" allowfullscreen></iframe>
-                        </div>
-                        <p>watch the video carefully!!!</p>
-                        <pre><code>https://pastefy.app/2GC1CnoF/raw</code></pre>
                         <p><strong>Note:</strong> Local Script inside Button</p>
+                        <pre><code>https://pastefy.app/2GC1CnoF/raw</code></pre>
                         <button class="copy-btn">Copy Script Link</button>
                     </div>
 
                     <!-- Card 5 -->
                     <div class="script-card">
                         <h3>How to make Block System</h3>
-                        <div class="video-wrapper">
-                            <iframe src="https://www.youtube.com/embed/0glXrSGrK_I" allowfullscreen></iframe>
-                        </div>
                         <p><strong>Put the Scripts in right PLACE!!!</strong></p>
                         <p>Script inside ServerScriptService:</p>
                         <pre><code>https://pastefy.app/4Z6bLjFR/raw</code></pre>
@@ -310,19 +277,12 @@
                     <!-- Card 6 -->
                     <div class="script-card">
                         <h3>Soccer Game Part 1 Model</h3>
-                        <div class="video-wrapper">
-                            <iframe src="https://www.youtube.com/embed/Bu1ZdREmR-4" allowfullscreen></iframe>
-                        </div>
-                        <p><strong>THERE IS IMPORTANT PART.GO WATCH VIDEO BEFORE USING THIS MODEL</strong></p>
                         <p>Model Link: <a href="https://create.roblox.com/store/asset/12207014022/Soccer-Game-Part-1-By-AharonFusions" target="_blank">Click here to get the model</a></p>
                     </div>
 
                     <!-- Card 7 -->
                     <div class="script-card">
                         <h3>How to make C00lkid Button</h3>
-                        <div class="video-wrapper">
-                            <iframe src="https://www.youtube.com/embed/0o7tcmOiSUM" allowfullscreen></iframe>
-                        </div>
                         <p>Credits to Tomato Studio for scripts</p>
                         <p>Local Script inside the Button:</p>
                         <pre><code>https://pastefy.app/apYCUlMe/raw</code></pre>
@@ -335,9 +295,6 @@
                     <!-- Card 8 -->
                     <div class="script-card">
                         <h3>How to make Combat System V3</h3>
-                        <div class="video-wrapper">
-                            <iframe src="https://www.youtube.com/embed/lgkNHggZnXI" allowfullscreen></iframe>
-                        </div>
                         <p><a href="https://create.roblox.com/store/asset/121797332345085/Combat" target="_blank">Click here to get Model</a></p>
                         <p>Script inside MainScript:</p>
                         <pre><code>https://pastebin.com/raw/WttU0nxX</code></pre>
@@ -350,9 +307,6 @@
                     <!-- Card 9 -->
                     <div class="script-card">
                         <h3>How to make Satoru Gojo Moveset</h3>
-                        <div class="video-wrapper">
-                            <iframe src="https://www.youtube.com/embed/cyOb-gzxiNg" allowfullscreen></iframe>
-                        </div>
                         <p><a href="https://create.roblox.com/store/asset/83797749474521/Gojo-Moveset" target="_blank">Download Gojo Moveset Model</a></p>
                     </div>
                 </section>
@@ -389,7 +343,7 @@
                     <div class="about-text">
                         <h3>Roblox Scripting Specialist</h3>
                         <p>I'm MrAwo, a dedicated Roblox developer focused on creating smooth, fun, and optimized gameplay experiences using Lua.</p>
-                        <p>I share free scripts, models, and tutorials to help the community build better games.</p>
+                        <p>I share free scripts, models, and icons to help the community build better games faster.</p>
                         <p>Enjoy the resources and happy developing!</p>
                     </div>
                 </div>
@@ -402,17 +356,21 @@
     </div>
     <script src="templatemo-nexa-scripts.js"></script>
 
-    <!-- Optional: Simple copy functionality -->
+    <!-- Copy to Clipboard Functionality -->
     <script>
         document.querySelectorAll('.copy-btn').forEach(btn => {
             btn.addEventListener('click', () => {
-                const code = btn.previousElementSibling.querySelector('code').textContent.trim();
+                const codeElement = btn.previousElementSibling;
+                const code = codeElement.tagName === 'PRE' 
+                    ? codeElement.querySelector('code').textContent.trim()
+                    : codeElement.textContent.trim();
+
                 navigator.clipboard.writeText(code).then(() => {
+                    const originalText = btn.textContent;
                     btn.textContent = 'Copied!';
-                    setTimeout(() => btn.textContent = btn.dataset.original || 'Copy', 2000);
+                    setTimeout(() => btn.textContent = originalText, 2000);
                 });
             });
-            btn.dataset.original = btn.textContent;
         });
     </script>
 </body>
